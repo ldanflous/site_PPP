@@ -1,0 +1,233 @@
+html {
+    min-width: 750px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+
+}
+
+#container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.header {
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.header > .Titre {
+    position: absolute;
+    text-align: center;
+    margin-left: 30%;
+    top: 20%;
+    height: 30%;
+    width: 40%;
+    border: solid 2px black;
+}
+
+.presentation {
+    position: relative;
+    display: inline-block;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15%;
+    height: auto;
+    width: 82%;
+}
+
+.presentation h2 {
+    margin-left: 20px;
+}
+
+.presentation p {
+    margin: 20px;
+}
+
+.historique div {
+    float: right;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    width: 56%;
+    min-width: 500px;
+}
+
+.img_1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_1 .source_1 {
+    text-align: center;
+}
+
+.historique {
+    position: relative;
+    display: inline-block;
+    background-color: palegreen;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 20px;
+    height: auto;
+    width: 82%;
+}
+
+.historique h2 {
+    margin-left: 20px;
+}
+
+.historique p {
+    margin: 20px;
+}
+
+.recul {
+    position: relative;
+    display: inline-block;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15%;
+    height: auto;
+    width: 82%;
+}
+
+.recul h2 {
+    margin-left: 20px;
+}
+
+.recul > p {
+    float: top;
+    margin: 20px;
+}
+
+.recul div {
+    float: left;
+    margin-left: 2%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    width: 56%;
+    min-width: 500px;
+}
+
+.img_2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_2 .source_2 {
+    text-align: center;
+}
+
+.metier {
+    position: relative;
+    display: inline-block;
+    background-color: palegreen;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    height: auto;
+    width: 60%;
+}
+
+.metier a {
+    margin-left: 48%;
+
+}
+
+.contenu {
+    position: relative;
+    height: auto;
+}
+
+.footer {
+    position: relative;
+    background-color: white;
+    height: 200px;
+}
+
+.footer > p {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 50px;
+}
+
+#menu ul {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    text-align: center;
+}
+
+#menu ul li {
+    width: 25%;
+    height: 100%;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#menu li a:hover {
+    color: #FFD700;
+    text-align: center;
+}
+
+#menu ul li ul {
+    position: relative;
+    top: 18px;
+    display: none;
+    text-align: center;
+}
+
+#menu ul li ul li {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+#menu ul li ul li .lien {
+    position: absolute;
+    top: 100px;
+}
+
+#menu ul li:hover ul {
+    display: inline;
+}
+
+#menu li:hover ul li {
+    float: none;
+}
