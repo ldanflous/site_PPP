@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: Verdana,sans-serif;
+}
+
+#container{
+    width: 100%;
+    line-height: 25px;
+}
+.img{
+  background-image: url('carte-monde-pays-drapeau2.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-width: 170px;
+  padding: 20%;
+}
+
+.Titre {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid 2px #202020;
+    background-color: rgba(56, 56, 56, 0.84);
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 20pt;
+    min-width: 0px;
+}
+
+.presentation {
+    position: relative;
+    background-color: #424242;
+    color: #f96a60;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15%;
+    padding: 7px;
+    height: auto;
+    width: 82%;
+}
+
+.presentation h2 {
+    margin-left: 20px;
+}
+
+.presentation p {
+    margin: 20px;
+}
+
+.historique div {
+    float: right;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 4%
+    width: 56%;
+    min-width: 500px;
+}
+
+.img_1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_1 .source_1 {
+    text-align: center;
+}
+
+.historique {
+    position: relative;
+    display: inline-block;
+    background-color: #f96a60;
+    color: #383838;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 20px;
+    height: auto;
+    width: 82%;
+}
+
+.historique h2 {
+    margin-left: 20px;
+}
+
+.historique p {
+    margin: 20px;
+}
+
+.recul {
+    position: relative;
+    display: inline-block;
+    background-color: #424242;
+    color: #f96a60;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15%;
+    height: auto;
+    width: 82%;
+}
+
+.recul h2 {
+    margin-left: 20px;
+}
+
+.recul > p {
+    float: top;
+    margin: 20px;
+}
+
+.recul div {
+    float: left;
+    margin-left: 2%;
+    margin-right: 4%;
+    width: 56%;
+    min-width: 500px;
+}
+
+.img_2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_2 .source_2 {
+    text-align: center;
+}
+
+.contenu {
+    position: relative;
+    height: auto;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px 0;
+  background-color: #f96a60;
+  color: #383838;
+}
+
+.footer a {
+  color: #383838;
+}
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+#menu p {
+    margin: 8px;
+}
+
+#menu li a:hover {
+  color: #383838;
+  background-color: #f96a60;
+  font-size: 16pt;
+}
+
+#menu li p:hover {
+    color: #383838;
+    background-color: #f96a60;
+}
+
+#menu ul {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: #383838;
+    text-align: center;
+}
+
+#menu ul li {
+    width: 25%;
+    height: 100%;
+}
+
+#menu li a {
+    display: block;
+    color: #f1f1f1;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 9px;
+}
+#menu li p {
+    display: block;
+    color: #f1f1f1;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 9px;
+}
+
+
+#menu li ul {
+    display: none;
+}
+
+#menu li ul li {
+    border: solid 1.5px black;
+    background-color: rgba(56, 56, 56, 0.92);
+    padding-bottom: 7px;
+    text-align: center;
+    width: 100%;
+}
+
+#menu li ul li .lien {
+    position: absolute;
+    top: 100px;
+}
+
+#menu li:hover ul {
+    display: inline;
+}
+
+#menu li:hover ul li {
+    float: none;
+}
+
+#interview h2 {
+  color: #383838;
+  margin: 90px 25% 40px 25%;
+  padding: 10px;
+  text-align: center;
+  background-color: #f96a60;
+  text-decoration: underline;
+}
+
+.question {
+  font-style: italic;
+  color: #f96a60;
+  margin-left: 10px;
+}
+
+.reponse {
+  color: #383838;
+  margin-left: 8%;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
