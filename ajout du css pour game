@@ -1,0 +1,31 @@
+.Titregame{
+    color: #383838;
+    margin: 90px 38% 40px 38%;
+    padding: 10px;
+    text-align: center;
+    background-color: #f96a60;
+}
+
+.block1{
+    position: relative;
+    background-color: #424242;
+    color: #f96a60;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 7px;
+    height: auto;
+    width: 58%;
+}
+.block2{
+  position: relative;
+  display: inline-block;
+  background-color: #f96a60;
+  color: #383838;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 7px;
+  height: auto;
+  width: 58%;
+}
