@@ -7,6 +7,7 @@ body {
     width: 100%;
     line-height: 25px;
 }
+
 .img{
   background-image: url('carte-monde-pays-drapeau2.png');
   background-size: 100% auto;
@@ -194,7 +195,7 @@ body {
     font-size: 15pt;
     text-decoration: none;
     padding: 5px;
-    margin-top: 9px;
+    margin-top: 7px;
 }
 #menu li p {
     display: block;
@@ -203,7 +204,17 @@ body {
     font-size: 15pt;
     text-decoration: none;
     padding: 5px;
-    margin-top: 9px;
+    margin-top: 7px;
+    position: relative;
+}
+
+#menu li img {
+  width: 16px;
+  height: auto;
+  transform: rotate(315deg);
+  position: absolute;
+  top: 13px;
+  right: 26%;
 }
 
 
@@ -214,7 +225,8 @@ body {
 #menu li ul li {
     border: solid 1.5px black;
     background-color: rgba(56, 56, 56, 0.92);
-    padding-bottom: 7px;
+    padding-top: 2px;
+    padding-bottom: 9px;
     text-align: center;
     width: 100%;
 }
@@ -224,8 +236,13 @@ body {
     top: 100px;
 }
 
-#menu li:hover ul {
+#menu li:hover ul{
     display: inline;
+}
+
+#menu li:hover img{
+  transform: rotate(135deg);
+  top: 22px;
 }
 
 #menu li:hover ul li {
@@ -239,6 +256,12 @@ body {
   text-align: center;
   background-color: #f96a60;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+  #menu {
+    display: none;
+  }
 }
 
 .question {
